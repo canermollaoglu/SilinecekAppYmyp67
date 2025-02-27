@@ -30,6 +30,7 @@
         {
             comboBox1 = new ComboBox();
             button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // comboBox1
@@ -50,11 +51,22 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(175, 53);
+            button2.Name = "button2";
+            button2.Size = new Size(133, 32);
+            button2.TabIndex = 2;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(970, 584);
+            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(comboBox1);
             Name = "Form1";
@@ -66,5 +78,6 @@
 
         private ComboBox comboBox1;
         private Button button1;
+        private Button button2;
     }
 }
