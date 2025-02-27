@@ -11,6 +11,7 @@ namespace SilinecekApp
         {
             MessageBox.Show("Test");
             MessageBox.Show("Yeni Test");
+            MessageBox.Show("Test");
         }
     }
 }
